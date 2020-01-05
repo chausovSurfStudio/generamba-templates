@@ -6,8 +6,6 @@ import UIKit
 
 final class {{ module_info.name }}ModuleTestConfigurator {
 
-    // MARK: - Public methods
-
     func configure() -> (UIViewController, [AnyObject]) {
         let (view, output) = {{ module_info.name }}ModuleConfigurator().configure()
         return (view, [output])
